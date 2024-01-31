@@ -12,7 +12,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   return new NextResponse(`<!DOCTYPE html><html><head>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://zizzamia.xyz/park-2.png" />
+    <meta property="fc:frame:image" content="https://images.unsplash.com/photo-1457195740896-7f345efef228?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdhdGVyfGVufDB8fDB8fHww" />
     <meta property="fc:frame:button:1" content="${accountAddress}" />
     <meta property="fc:frame:post_url" content="https://zizzamia.xyz/api/frame" />
   </head></html>`);
