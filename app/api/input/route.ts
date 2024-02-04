@@ -26,7 +26,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: "https://images.unsplash.com/photo-1512138664757-360e0aad5132?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdhdGVyfGVufDB8fDB8fHww",
-      post_url: `${NEXT_PUBLIC_URL}/api/frame`,
+      post_url: `${NEXT_PUBLIC_URL}/api/input`,
     }),
   );
 }
